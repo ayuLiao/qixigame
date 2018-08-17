@@ -474,12 +474,12 @@
     $('#modal').show()
     $('#over-modal').show()
     $('#over-zero').show()
-    if(score < 60){
+    if(score < 100){
         console.log('分数小于3，不显示转盘')
         $('#qixilucky').hide()
     }
 
-    if(score > 1){
+    if(score > 200){
         params = {'name': 'wanting'}
             var ajaxObj = {
                 type: 'POST',
